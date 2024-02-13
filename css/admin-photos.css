@@ -1,0 +1,89 @@
+main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(5, 5, 102, 0.7)),
+                url("../img/hogwarts-admin-background-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
+/* uploads photo section*/
+
+.upload-photos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-photos h1{
+    margin-top: 20px;
+}
+
+.upload-photos form{
+    display: flex;
+    flex-direction: column;
+}
+
+#choose-file{
+    display: none;
+}
+
+#choose-file-text{
+    text-align: center;
+    font-size: 20px;
+    background-color: yellowgreen;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.upload-file{
+    font-size: 20px;
+    background-color: rgba(2, 170, 58, 0.5);
+    color: white;
+    margin-top: 15px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+/* Images section */
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images img{
+    width: 300px;
+}
+
+.images-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images-btn a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.images-btn-download{
+    background-color: greenyellow;
+    color: black;
+}
+
+.images-btn-delete{
+    background-color: red;
+    color: black;
+}

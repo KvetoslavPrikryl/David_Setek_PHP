@@ -1,0 +1,51 @@
+main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(5, 5, 102, 0.7)),
+                url("../img/hogwarts-admin-background-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+form input, form textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    outline: none;
+}
+
+form input{
+    width: 270px;
+
+}
+
+form textarea{
+    width: 555px;
+}
+
+form input[type="submit"]{
+    background: rgba(2, 170, 58, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+form input[type="submit"]:hover{
+    background: rgba(2, 170, 58);
+}
